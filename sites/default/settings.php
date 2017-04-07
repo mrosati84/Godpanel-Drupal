@@ -33,3 +33,10 @@ $settings['trusted_host_patterns'] = array(
   '^localhost$',
   '^godpanel\.mrosati\.it$',
 );
+
+if (getenv('DEBUG')) {
+  if (file_exists(__DIR__ . '/settings.debug.php')) {
+    include __DIR__ . '/settings.debug.php';
+  }
+}
+
