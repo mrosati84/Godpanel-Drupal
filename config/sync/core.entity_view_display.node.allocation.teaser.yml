@@ -4,27 +4,23 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.allocation.body
+    - field.field.node.allocation.field_end_date
+    - field.field.node.allocation.field_project
+    - field.field.node.allocation.field_resource
+    - field.field.node.allocation.field_start_date
     - node.type.allocation
   module:
-    - text
     - user
 id: node.allocation.teaser
 targetEntityType: node
 bundle: allocation
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   links:
     weight: 100
     region: content
 hidden:
+  field_end_date: true
   field_project: true
   field_resource: true
+  field_start_date: true

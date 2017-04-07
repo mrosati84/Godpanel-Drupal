@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 name: Project
 type: project
-description: 'A project'
+description: 'One or more resources can be allocated on a project.'
 help: ''
 new_revision: false
 preview_mode: 0

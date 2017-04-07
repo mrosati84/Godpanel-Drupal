@@ -3,24 +3,27 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.allocation.body
+    - field.field.node.allocation.field_end_date
     - field.field.node.allocation.field_project
     - field.field.node.allocation.field_resource
+    - field.field.node.allocation.field_start_date
     - node.type.allocation
   module:
-    - text
+    - datetime
     - user
 id: node.allocation.default
 targetEntityType: node
 bundle: allocation
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
-    settings: {  }
+  field_end_date:
+    weight: 105
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
     third_party_settings: {  }
+    type: datetime_default
     region: content
   field_project:
     weight: 102
@@ -37,6 +40,15 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_start_date:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
     region: content
   links:
     weight: 100

@@ -1,0 +1,24 @@
+uuid: e8afded2-638e-437b-8b47-8d18709f4d4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_date
+    - node.type.allocation
+  module:
+    - datetime
+id: node.allocation.field_start_date
+field_name: field_start_date
+entity_type: node
+bundle: allocation
+label: 'Start date'
+description: 'The start date and time for the allocation.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime
