@@ -1,0 +1,28 @@
+uuid: bae0c101-af8e-4787-8ece-1b8d58154b2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project
+    - node.type.allocation
+    - node.type.project
+id: node.allocation.field_project
+field_name: field_project
+entity_type: node
+bundle: allocation
+label: Project
+description: 'The project of the allocation.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      project: project
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

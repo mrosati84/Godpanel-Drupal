@@ -1,0 +1,20 @@
+uuid: 96031da5-5243-4890-b9fb-0916b8aa2fe5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik
+id: tabs
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

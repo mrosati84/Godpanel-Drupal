@@ -1,0 +1,14 @@
+uuid: 6ab2e5c8-16e7-4b2e-a9c9-fefa2ea5f23c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.godpanel_viewer
+  module:
+    - user
+id: user_remove_role_action.godpanel_viewer
+label: 'Remove the Godpanel viewer role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: godpanel_viewer

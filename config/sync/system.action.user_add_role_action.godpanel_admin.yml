@@ -1,0 +1,14 @@
+uuid: f0f7ad58-4cfa-4f19-9a97-44cd7de39467
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.godpanel_admin
+  module:
+    - user
+id: user_add_role_action.godpanel_admin
+label: 'Add the Godpanel admin role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: godpanel_admin

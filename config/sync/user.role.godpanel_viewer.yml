@@ -1,0 +1,9 @@
+uuid: 58aeeace-db90-43d0-ac3a-b3320874dd57
+langcode: en
+status: true
+dependencies: {  }
+id: godpanel_viewer
+label: 'Godpanel viewer'
+weight: 4
+is_admin: null
+permissions: {  }

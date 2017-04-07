@@ -1,0 +1,11 @@
+uuid: 7404d0bd-acf2-4b0e-bb11-e28ed068b840
+langcode: en
+status: true
+dependencies: {  }
+name: Allocation
+type: allocation
+description: 'An allocation for a resource on a project.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

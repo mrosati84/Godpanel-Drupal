@@ -1,0 +1,27 @@
+name: Godpanel
+core: 8.x
+type: profile
+dependencies:
+  - node
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - datetime
+  - editor
+  - image
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - toolbar
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - automated_cron
+themes:
+  - bartik
+  - seven

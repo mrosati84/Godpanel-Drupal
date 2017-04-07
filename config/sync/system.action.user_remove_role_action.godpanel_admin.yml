@@ -1,0 +1,14 @@
+uuid: f7730198-8598-447d-81ff-7da785fd6824
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.godpanel_admin
+  module:
+    - user
+id: user_remove_role_action.godpanel_admin
+label: 'Remove the Godpanel admin role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: godpanel_admin

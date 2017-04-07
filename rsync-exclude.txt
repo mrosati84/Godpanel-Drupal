@@ -1,0 +1,5 @@
+.env
+.idea
+rsync-exclude.txt
+sites/default/files
+

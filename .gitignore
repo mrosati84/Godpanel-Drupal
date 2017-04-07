@@ -1,0 +1,6 @@
+vendor
+.idea
+sites/*/files
+sites/*/private
+*.swp
+.env

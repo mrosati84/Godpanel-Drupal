@@ -1,0 +1,9 @@
+uuid: d50466bc-5be0-4bb3-90f4-bb09143e9bea
+langcode: en
+status: true
+dependencies: {  }
+name: Area
+vid: area
+description: 'The area which the resource belongs to.'
+hierarchy: 0
+weight: 0

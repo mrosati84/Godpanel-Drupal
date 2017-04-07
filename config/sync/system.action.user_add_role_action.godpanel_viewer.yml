@@ -1,0 +1,14 @@
+uuid: 59820ca1-d9c9-4594-8545-9b0af0d19069
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.godpanel_viewer
+  module:
+    - user
+id: user_add_role_action.godpanel_viewer
+label: 'Add the Godpanel viewer role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: godpanel_viewer

@@ -1,0 +1,32 @@
+uuid: 095e47b7-965a-46f6-8815-0c899908374d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_area
+  module:
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+  field_area:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  language:
+    weight: 0
+    region: content
+  timezone:
+    weight: 6
+    region: content
+hidden: {  }

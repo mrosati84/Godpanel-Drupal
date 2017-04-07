@@ -1,0 +1,28 @@
+uuid: ddc372cb-a85b-4486-a824-6a67a7dfa079
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource
+    - node.type.allocation
+id: node.allocation.field_resource
+field_name: field_resource
+entity_type: node
+bundle: allocation
+label: Resource
+description: 'The resource working in this allocation.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

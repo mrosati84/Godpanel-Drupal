@@ -1,0 +1,11 @@
+uuid: 5c01f34d-c5fa-408e-85f7-f62a59b22bc2
+langcode: en
+status: true
+dependencies: {  }
+name: Project
+type: project
+description: 'A project'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,9 @@
+uuid: 45577ada-a6d1-45ea-a73c-96626254d6bc
+langcode: en
+status: true
+dependencies: {  }
+id: godpanel_admin
+label: 'Godpanel admin'
+weight: 3
+is_admin: null
+permissions: {  }
