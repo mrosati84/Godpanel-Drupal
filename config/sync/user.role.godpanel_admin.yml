@@ -6,4 +6,20 @@ id: godpanel_admin
 label: 'Godpanel admin'
 weight: 3
 is_admin: null
-permissions: {  }
+permissions:
+  - 'create allocation content'
+  - 'create project content'
+  - 'delete allocation revisions'
+  - 'delete any allocation content'
+  - 'delete any project content'
+  - 'delete own allocation content'
+  - 'delete own project content'
+  - 'delete project revisions'
+  - 'edit any allocation content'
+  - 'edit any project content'
+  - 'edit own allocation content'
+  - 'edit own project content'
+  - 'revert allocation revisions'
+  - 'revert project revisions'
+  - 'view allocation revisions'
+  - 'view project revisions'
