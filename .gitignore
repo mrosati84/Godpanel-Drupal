@@ -1,4 +1,4 @@
-vendor
+/vendor
 .idea
 sites/*/files
 sites/*/private
