@@ -21,7 +21,7 @@ $databases['default']['default'] = array (
   'password' => getenv('DB_PASS'),
   'host' => getenv('DB_HOST'),
   'port' => getenv('DB_PORT'),
-  'driver' => 'mysql',
+  'driver' => getenv('DB_DRIVER'),
   'prefix' => '',
   'collation' => 'utf8mb4_general_ci',
 );
